@@ -18,5 +18,5 @@ _More precisely, a data structure is a collection of data values, the relationsh
 
 ## References
 
-- Valentin Podkamennyi - https://towardsdatascience.com/data-structures-simplified-and-classified-e0c1e304436b
-- Diego de Granda . https://www.linkedin.com/in/diegodegranda/?originalSubdomain=mx
+1. Valentin Podkamennyi . [Medium Profile](https://vpodk.medium.com/) - [Article](https://towardsdatascience.com/data-structures-simplified-and-classified-e0c1e304436b)
+2. Diego de Granda . [Web Profile](http://diegodegranda.me/about-me/) - [Course](https://www.linkedin.com/in/diegodegranda/?originalSubdomain=mx)
