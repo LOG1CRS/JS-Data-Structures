@@ -8,6 +8,16 @@ Inside the [structures folder](https://github.com/LOG1CRS/JS-Data-Structures/tre
 
 ## Table of Contents
 
+- [What Are Data Structures?](https://github.com/LOG1CRS/JS-Data-Structures#what-are-data-structures)
+- [Structures](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures)
+  - [Array](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Array)
+  - [Graph](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Graph)
+  - [Hash Table](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Hash-Table)
+  - [Linked List](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Linked-List)
+  - [Queue](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Queue)
+  - [Stack](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Stack)
+  - [Tree](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Tree)
+
 ## What Are Data Structures?
 
 <h4>Data structures are different ways of organizing data to save or use it effectively.</h4>
@@ -19,4 +29,4 @@ _More precisely, a data structure is a collection of data values, the relationsh
 ## References
 
 1. Valentin Podkamennyi . [Medium Profile](https://vpodk.medium.com/) - [Article](https://towardsdatascience.com/data-structures-simplified-and-classified-e0c1e304436b)
-2. Diego de Granda . [Web Profile](http://diegodegranda.me/about-me/) - [Course](https://www.linkedin.com/in/diegodegranda/?originalSubdomain=mx)
+2. Diego de Granda . [Web Profile](http://diegodegranda.me/about-me/) - [Course](https://platzi.com/clases/estructuras-datos/)
