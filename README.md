@@ -4,7 +4,7 @@ This repo is a compilation of the fundamental data structures, this repo also he
 
 ## Getting Started
 
-Inside the [structures folder](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures), there are folders of each structure, and within each one, you will find a readme file explaining that structure and the code with comments.
+Inside the [structures folder](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures), there are folders of each structure, and within each one, you will find a readme file explaining that structure, the code with comments, and a package.json file with the commands to run the code with node.
 
 ## Table of Contents
 
