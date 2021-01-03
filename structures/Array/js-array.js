@@ -32,7 +32,7 @@ array.forEach((item) => console.log(item));
 // 3
 
 // Check if the array includes the item passed in the method.
-console.log(array.includes((item) => item > 4)); // Output false
+console.log(array.includes(4)); // Output false
 
 // Create a new array with elements that fall under the given criteria.
 const newArray = array.filter((item) => item < 4);

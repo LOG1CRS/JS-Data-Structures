@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Explaining arrays.",
   "scripts": {
-    "js-array": "node js-array.js"
+    "array": "node js-array.js",
+    "custom": "node custom-array"
   },
   "author": "LOG1C_RS",
   "license": "MIT",
