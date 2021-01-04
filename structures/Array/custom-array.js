@@ -1,4 +1,4 @@
-// Custom array class
+// CustomArray class
 class CustomArray {
   /**
    * Create an array
@@ -94,6 +94,21 @@ class CustomArray {
     this.shiftIndex(0);
     return itemDeleted;
   }
+
+  /**
+   * Includes method checks if the array includes the item passed in the method.
+   * @param {*} item The value to find.
+   * @returns {boolean} Returns true or false depending on whether the item was found or not.
+   */
+  includes(item) {
+    for (let i = 0; i < this.length; i++) {
+      if (this.data[i] == item) {
+        return true;
+      } else if (i === this.length - 1) {
+        return false;
+      }
+    }
+  }
 }
 
 // Testing class
@@ -125,3 +140,7 @@ console.log(customArray.data); // Output: { '0': 'unshift', '1': 'Test 1', '2': 
 // Testing shift method
 console.log(customArray.shift()); // Output: 'unshift'
 console.log(customArray.data); // Output: { '0': 'Test 1', '1': 'Test 3' }
+
+// Testing includes method
+console.log(customArray.includes('Test 3')); // Output: true
+console.log(customArray.includes(3)); // Output: false
