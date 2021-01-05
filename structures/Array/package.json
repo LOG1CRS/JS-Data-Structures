@@ -4,7 +4,7 @@
   "description": "Explaining arrays.",
   "scripts": {
     "array": "node js-array.js",
-    "custom": "node custom-array"
+    "custom": "node custom-array.js"
   },
   "author": "LOG1C_RS",
   "license": "MIT",
@@ -12,5 +12,5 @@
     "type": "git",
     "url": "https://github.com/LOG1CRS/JS-Data-Structures"
   },
-  "homepage": "https://github.com/LOG1CRS/JS-Data-Structures/blob/main/structures/Array/README.md"
+  "homepage": "https://github.com/LOG1CRS/JS-Data-Structures/blob/main/structures/Array"
 }

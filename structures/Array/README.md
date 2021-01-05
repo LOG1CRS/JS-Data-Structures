@@ -5,7 +5,7 @@ An array is a collection of information. When we create an array, it generates a
 - Static Array: The size of the array is defined when the array is declared and after it cannot be changed, that size defines the maximum number of values ​​you can add to the array.
 - Dynamic Array: You can add values as you want, without defining a number of values ​​you need.
 
-JavaScript uses dynamic arrays and you don't need to declare the type of data to save because you can save all kinds of data as you want in any position.
+JavaScript uses dynamic arrays and you don't need to declare the type of data to save because you can save all kinds of data as you want in any position. It is worth mentioning that the arrays are already pre-built in javascript to be able to use them immediately.
 
 ## Graphic Description
 
@@ -26,6 +26,6 @@ JavaScript uses dynamic arrays and you don't need to declare the type of data to
   - map: Creates a new array containing the results of calling a function on every element in this array.
   - sort: Allows you to sort elements of an array in place.
 
-## Support article
+## Support Article
 
 - [Mozilla MDN Array Topic](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
