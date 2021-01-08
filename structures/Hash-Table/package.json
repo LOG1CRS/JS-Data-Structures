@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Explaining hash tables.",
   "scripts": {
-    "hash": "node js-hash-table.js",
-    "custom": "node custom-hast-table.js"
+    "custom": "node custom-hash-table.js"
   },
   "author": "LOG1C_RS",
   "license": "MIT",

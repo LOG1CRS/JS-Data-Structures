@@ -6,11 +6,11 @@ _A hash function is a computational method that can map an indeterminate size of
 
 The biggest problem with using a hash table is collisions and it is when two or more keys were hashed to result in the same location and this is impossible to avoid. This space would be a linked list, and this makes it more difficult to find a specific item.
 
-You can find hash tables in other programming languages like in Python as dictionaries, in Java as maps, in Go also as Maps and Ruby as hashes. In JavaScript, there is no pre-built hash table, but a great example of a hash table is JS objects.
+You can find hash tables in other programming languages like in Python as dictionaries, in Java as maps, in Go also as maps and Ruby as hashes. In JavaScript, there is no pre-built hash table, but a great example of a hash table is JS objects.
 
 ## Graphic Description
 
-<img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/hash-example.jpg" width="200px">
+<img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/hash-example.jpg" width="400px">
 
 ## Methods
 
