@@ -98,7 +98,30 @@ class CustomLinkedList {
   }
 
   /**
-   * Delete method deletes a node according to its the position.
+   * DeleteFirst method removes the first node from the list.
+   * @returns this.
+   */
+  deleteFirst() {
+    const newFirstNode = this.head.next;
+    this.head = newFirstNode;
+    this.length--;
+    return this;
+  }
+
+  /**
+   * DeleteLast method removes the last node from the list.
+   * @returns this.
+   */
+  deleteLast() {
+    const newLastNote = this.getNodeIndex(this.length - 2);
+    newLastNote.next = null;
+    this.tail = newLastNote;
+    this.length--;
+    return this;
+  }
+
+  /**
+   * Delete method removes a node according to its the position.
    * @param {*} index It is the position of the element to be removed.
    * @returns this.
    */
@@ -109,15 +132,11 @@ class CustomLinkedList {
     }
 
     if (index === 0) {
-      console.log(
-        'Use deleteFirst method to delete the first element of the list.'
-      );
-      return;
+      this.deleteFirst();
+      return this;
     } else if (index === this.length) {
-      console.log(
-        'Use deleteLast method to delete the last element of the list.'
-      );
-      return;
+      this.deleteLast();
+      return this;
     }
 
     const firstPointer = this.getNodeIndex(index - 1);
@@ -128,9 +147,16 @@ class CustomLinkedList {
     return this;
   }
 
-  deleteFirst() {}
-
-  deleteLast() {}
+  /**
+   * GetNodes method prints each nodes from the list.
+   */
+  getNodes() {
+    let currentPosition = this.head;
+    for (let i = 1; i <= this.length; i++) {
+      console.log({ index: i, value: currentPosition.value });
+      currentPosition = currentPosition.next;
+    }
+  }
 }
 
 // Testing class
@@ -175,6 +201,15 @@ console.log(customLinkedList.insert(1, 'Value Inserted'));
 //   length: 5
 // }
 
+// Testing getNodes method
+customLinkedList.getNodes();
+// Output:
+// { index: 1, value: 'New begin' }
+// { index: 2, value: 'Value Inserted' }
+// { index: 3, value: 'Created' }
+// { index: 4, value: 'Test' }
+// { index: 5, value: 'Test 2' }
+
 // Testing delete method
 console.log(customLinkedList.delete(1));
 // Output:
@@ -182,4 +217,22 @@ console.log(customLinkedList.delete(1));
 //   head: Node { value: 'New begin', next: { value: 'Created', next: [Node] } },
 //   tail: Node { value: 'Test 2', next: null },
 //   length: 4
+// }
+
+// Testing deleteFirst method
+console.log(customLinkedList.deleteFirst());
+// Output:
+// CustomLinkedList {
+//   head: { value: 'Created', next: Node { value: 'Test', next: [Node] } },
+//   tail: Node { value: 'Test 2', next: null },
+//   length: 3
+// }
+
+// Testing deleteLast method
+console.log(customLinkedList.deleteLast());
+// Output:
+// CustomLinkedList {
+//   head: { value: 'Created', next: Node { value: 'Test', next: null } },
+//   tail: Node { value: 'Test', next: null },
+//   length: 2
 // }
