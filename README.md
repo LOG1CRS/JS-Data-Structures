@@ -1,6 +1,6 @@
 <h1> <img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/structure-icon.png" width="30px"> Data Structures with JavaScript </h1>
 
-This repo is a compilation of the fundamental data structures, this repo also helps me to have them present when I need them or forget something about them. Each structure contains notes and comments to explain better itself and Its code made with JavaScript.
+This repo is a compilation of the fundamental data structures, and also helps me to have them present when I need them or forget something about them. Each structure contains notes and comments to explain better itself and Its code made with JavaScript.
 
 ## Getting Started
 

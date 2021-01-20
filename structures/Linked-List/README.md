@@ -10,7 +10,7 @@ There are three types of Linked List.
 
 ## Graphic Description
 
-<img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/linked-example.jpg" width="500px">
+<img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/linked-example.jpg" width="600px">
 
 ## Methods
 
