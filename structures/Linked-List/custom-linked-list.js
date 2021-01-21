@@ -2,6 +2,7 @@
 class Node {
   /**
    * Create a node
+   * @param {*} value It's the value to add.
    */
   constructor(value) {
     this.value = value;
@@ -13,6 +14,7 @@ class Node {
 class CustomLinkedList {
   /**
    * Create a linked list
+   * @param {*} value It's the value to add.
    */
   constructor(value) {
     this.head = {
