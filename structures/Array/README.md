@@ -9,7 +9,7 @@ JavaScript uses dynamic arrays and you don't need to declare the type of data to
 
 ## Graphic Description
 
-<img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/array-example.png" width="400px">
+<img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/array-example.png" width="400px" />
 
 ## Methods
 

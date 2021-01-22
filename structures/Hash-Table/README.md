@@ -10,7 +10,7 @@ You can find hash tables in other programming languages like in Python as dictio
 
 ## Graphic Description
 
-<img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/hash-example.jpg" width="400px">
+<img src="https://github.com/LOG1CRS/JS-Data-Structures/blob/main/assets/hash-example.jpg" width="400px" />
 
 ## Methods
 
