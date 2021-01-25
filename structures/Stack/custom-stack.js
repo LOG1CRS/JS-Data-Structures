@@ -63,7 +63,7 @@ class CustomStack {
   }
 
   /**
-   * Peek method return the top item of the stack.
+   * Peek method returns the top item of the stack.
    * @returns It's the top item of the stack.
    */
   peek() {
@@ -71,7 +71,7 @@ class CustomStack {
   }
 }
 
-// Testing class
+// Testing CustomStack Class
 const customStack = new CustomStack();
 
 // Testing push method

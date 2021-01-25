@@ -106,7 +106,7 @@ class CustomHashTable {
   }
 }
 
-// Testing class
+// Testing CustomHashTable Class
 const customHashTable = new CustomHashTable(50);
 
 // Testing insert method

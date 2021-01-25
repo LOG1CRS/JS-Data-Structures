@@ -13,7 +13,7 @@ You can understand queues with a simple real-life example. Imagine a queue of cu
 - Basic Methods
   - enqueue: Adds an item to the end of the queue.
   - dequeue: Removes the first item on the queue.
-  - peek: Returns the first item in the stack.
+  - peek: Returns the first item in the queue.
 
 ## Support Article
 

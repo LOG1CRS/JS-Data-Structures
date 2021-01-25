@@ -161,7 +161,7 @@ class CustomLinkedList {
   }
 }
 
-// Testing class
+// Testing CustomLinkedList Class
 const customLinkedList = new CustomLinkedList('Created');
 
 // Testing append method

@@ -111,7 +111,7 @@ class CustomArray {
   }
 }
 
-// Testing class
+// Testing CustomArray Class
 const customArray = new CustomArray();
 
 // Testing push method
