@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Explaining binary trees.",
   "scripts": {
-    "custom": "node custom-tree.js"
+    "custom": "node custom-binary-tree.js"
   },
   "author": "LOG1C_RS",
   "license": "MIT",

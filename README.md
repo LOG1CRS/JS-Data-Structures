@@ -16,7 +16,7 @@ Inside the [structures folder](https://github.com/LOG1CRS/JS-Data-Structures/tre
   - [Linked List](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Linked-List)
   - [Queue](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Queue)
   - [Stack](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Stack)
-  - [Tree](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Tree)
+  - [Binary Tree](https://github.com/LOG1CRS/JS-Data-Structures/tree/main/structures/Binary-Tree)
 
 ## What Are Data Structures?
 
