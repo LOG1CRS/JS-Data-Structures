@@ -51,6 +51,35 @@ class CustomBinaryTree {
       }
     }
   }
+
+  /**
+   * PrintValues method calls printNode method to print all values.
+   */
+  printValues() {
+    if (this.root === null) {
+      console.log('The tree is void');
+      return;
+    }
+
+    this.printNode(this.root);
+    console.log('');
+  }
+
+  /**
+   * printNode is a recursive method that print all values of the binary three.
+   * @param {Node} node The node to get its values.
+   */
+  printNode(node) {
+    process.stdout.write(` -> ${node.value}`);
+
+    if (node.left) {
+      this.printNode(node.left);
+    }
+
+    if (node.right) {
+      this.printNode(node.right);
+    }
+  }
 }
 
 // Testing CustomBinaryTree Class
@@ -91,3 +120,8 @@ console.log(customBinaryTree.insert(9));
 //     value: 10
 //   }
 // }
+
+// Testing printValues method
+customBinaryTree.printValues();
+// Output:
+// -> 10 -> 5 -> 9 -> 15
