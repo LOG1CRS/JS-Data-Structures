@@ -53,7 +53,22 @@ class CustomBinaryTree {
   }
 
   /**
-   * PrintValues method calls printNode method to print all values.
+   * Search method searches a value in the binary tree.
+   * @param {*} value It's the value to search.
+   * @returns {boolean} If the value was found or not.
+   */
+  search(value) {
+    const found = this.findNode(this.root, value);
+
+    if (found) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  /**
+   * PrintValues method calls printTreeValues method to print all values.
    */
   printValues() {
     if (this.root === null) {
@@ -61,23 +76,50 @@ class CustomBinaryTree {
       return;
     }
 
-    this.printNode(this.root);
+    this.printTreeValues(this.root);
     console.log('');
   }
 
   /**
-   * printNode is a recursive method that print all values of the binary three.
+   * PrintTreeValues is a recursive method that print all values of the binary three.
    * @param {Node} node The node to get its values.
    */
-  printNode(node) {
+  printTreeValues(node) {
     process.stdout.write(` -> ${node.value}`);
 
     if (node.left) {
-      this.printNode(node.left);
+      this.printTreeValues(node.left);
     }
 
     if (node.right) {
-      this.printNode(node.right);
+      this.printTreeValues(node.right);
+    }
+  }
+
+  /**
+   * FindNode is a recursive method that compares all values of the binary three.
+   * @param {Node} node The node to get its values.
+   * @param {*} value It's the value to search.
+   *    * @returns {boolean} If the value was found or not.
+   *
+   */
+  findNode(node, value) {
+    if (node.value === value) {
+      return true;
+    }
+
+    if (node.left) {
+      let threadFound = this.findNode(node.left, value);
+      if (threadFound) {
+        return true;
+      }
+    }
+
+    if (node.right) {
+      let threadFound = this.findNode(node.right, value);
+      if (threadFound) {
+        return true;
+      }
     }
   }
 }
@@ -125,3 +167,12 @@ console.log(customBinaryTree.insert(9));
 customBinaryTree.printValues();
 // Output:
 // -> 10 -> 5 -> 9 -> 15
+
+// Testing search method
+console.log(customBinaryTree.search(5));
+// Output:
+// true
+
+console.log(customBinaryTree.search(20));
+// Output:
+// false
